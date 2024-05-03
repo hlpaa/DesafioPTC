@@ -30,25 +30,59 @@ header {
 .green-background {
   position: absolute;
   top: 0;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
-  width: calc(100% - 320px); 
+  width: calc(100% - 320px);
   height: 100%;
   background-color: green;
-  }
+}
 
 .texto {
-  width: 50%; 
-  position: absolute;
-  top:120px;
-  left:0;
+  width: 50%;
+  position: relative;
   padding: 20px;
 }
 
 .img-supremo {
+  width: 330px;
+  height: 330px;
   position: absolute;
-  right: 200px;
-  width: 400px;
-  height: 400px;
-  margin-top: 20px;
+  top: 130px;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.texto2 {
+  left: 70px;
+  padding: 20px;
+  top: 250px;
+}
+
+.img-stf {
+  left: 45%;
+  padding: 80px;
+  top: 360px;
+}
+
+body {
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo1 {
+  border-bottom: 1px solid black;
+  margin-bottom: 70px;
+}
+
+.conteudo2 {
+  margin-top: 100px;
+}
+
+.img-sessao {
+  width: 660px;
+  height: 440px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
